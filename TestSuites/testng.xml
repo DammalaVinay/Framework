@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="vinayDammala.libraries.Listeners" />
+	</listeners>
+	<test name="Submit Order">
+		<classes>
+			<class name="vinayDammala.tests.MainTest" />
+			<class name="vinayDammala.libraries.BaseTest" />
+		</classes>
+	</test>
+
+	<test name="Error Validations test">
+		<classes>
+			<class name="vinayDammala.tests.ErrorValidationsTest" />
+		</classes>
+	</test>
+</suite> 

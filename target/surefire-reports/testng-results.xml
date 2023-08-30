@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T17:37:58 GMT-04:00" name="Suite" finished-at="2023-08-18T17:38:31 GMT-04:00" duration-ms="32781">
+    <groups>
+      <group name="Purchase">
+        <method signature="MainTest.submitOrder(java.util.HashMap)[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" name="submitOrder" class="vinayDammala.tests.MainTest"/>
+      </group> <!-- Purchase -->
+      <group name="Error Validations">
+        <method signature="ErrorValidationsTest.loginPageErrorValidation()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" name="loginPageErrorValidation" class="vinayDammala.tests.ErrorValidationsTest"/>
+      </group> <!-- Error Validations -->
+    </groups>
+    <test started-at="2023-08-18T17:37:58 GMT-04:00" name="Error Validations test" finished-at="2023-08-18T17:38:23 GMT-04:00" duration-ms="25203">
+      <class name="vinayDammala.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:37:58 GMT-04:00" name="launchApplication" finished-at="2023-08-18T17:38:06 GMT-04:00" duration-ms="7754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="cartPageErrorValidation()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:06 GMT-04:00" name="cartPageErrorValidation" finished-at="2023-08-18T17:38:09 GMT-04:00" duration-ms="3212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartPageErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:09 GMT-04:00" name="tearDown" finished-at="2023-08-18T17:38:09 GMT-04:00" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:09 GMT-04:00" name="launchApplication" finished-at="2023-08-18T17:38:15 GMT-04:00" duration-ms="6058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="loginPageErrorValidation()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:15 GMT-04:00" name="loginPageErrorValidation" finished-at="2023-08-18T17:38:16 GMT-04:00" duration-ms="708" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at vinayDammala.tests.ErrorValidationsTest.loginPageErrorValidation(ErrorValidationsTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:16 GMT-04:00" name="tearDown" finished-at="2023-08-18T17:38:16 GMT-04:00" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:16 GMT-04:00" name="launchApplication" finished-at="2023-08-18T17:38:22 GMT-04:00" duration-ms="5674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginPageErrorValidation()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:22 GMT-04:00" name="loginPageErrorValidation" finished-at="2023-08-18T17:38:22 GMT-04:00" duration-ms="799" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at vinayDammala.tests.ErrorValidationsTest.loginPageErrorValidation(ErrorValidationsTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vinayDammala.tests.ErrorValidationsTest@531f4093]" started-at="2023-08-18T17:38:23 GMT-04:00" name="tearDown" finished-at="2023-08-18T17:38:23 GMT-04:00" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vinayDammala.tests.ErrorValidationsTest -->
+    </test> <!-- Error Validations test -->
+    <test started-at="2023-08-18T17:37:58 GMT-04:00" name="Submit Order" finished-at="2023-08-18T17:38:31 GMT-04:00" duration-ms="32781">
+      <class name="vinayDammala.tests.MainTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:37:58 GMT-04:00" name="launchApplication" finished-at="2023-08-18T17:38:07 GMT-04:00" duration-ms="8335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:07 GMT-04:00" name="submitOrder" data-provider="getData" finished-at="2023-08-18T17:38:11 GMT-04:00" duration-ms="4714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Sample@123, email=sample@sample.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:11 GMT-04:00" name="tearDown" finished-at="2023-08-18T17:38:12 GMT-04:00" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:12 GMT-04:00" name="launchApplication" finished-at="2023-08-18T17:38:18 GMT-04:00" duration-ms="6026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:18 GMT-04:00" name="submitOrder" data-provider="getData" finished-at="2023-08-18T17:38:22 GMT-04:00" duration-ms="4815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@123, email=vinaydammala@vinay.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:22 GMT-04:00" name="tearDown" finished-at="2023-08-18T17:38:23 GMT-04:00" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:23 GMT-04:00" name="launchApplication" finished-at="2023-08-18T17:38:29 GMT-04:00" duration-ms="6373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderPage()[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:29 GMT-04:00" name="orderPage" finished-at="2023-08-18T17:38:31 GMT-04:00" depends-on-methods="vinayDammala.tests.MainTest.submitOrder" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:vinayDammala.tests.MainTest@545b995e]" started-at="2023-08-18T17:38:31 GMT-04:00" name="tearDown" finished-at="2023-08-18T17:38:31 GMT-04:00" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- vinayDammala.tests.MainTest -->
+    </test> <!-- Submit Order -->
+  </suite> <!-- Suite -->
+</testng-results>
